@@ -1,0 +1,199 @@
+/*universal css*/*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+}
+.container ul li{
+list-style: none;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*header style*/
+.nav-menu ul li{
+   list-style: none; 
+   display: inline-block;
+   padding: 15px;
+   margin: 8px;
+}
+.header-menu{
+    padding: 30px 0px;
+}
+.tr-btn{
+    padding: 13px 30px;
+    border:2px solid #289BDE;
+    color: #289BDE;
+    background-color:fff ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.banner{
+    background-image:url(../image/new.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 200px;
+color: #fff;
+border-radius: 10px;
+}
+.banner h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.banner p{
+    margin-bottom: 25px;
+}
+
+
+.title-section{
+
+    text-align: center;
+    margin: 50px;
+    margin-top: 100px;
+
+}
+.section-title {
+    font-size: 40px;
+    line-height:50px ;
+    margin-bottom: 15px;
+}
+.title-section h1{
+    font-size: 40px;
+}
+
+.course-info{
+    padding: 0px 20px;
+    display: block;
+}
+.course{
+border: 1px solid #289BDE;
+border-radius: 10px;
+margin: 10px;
+}
+.pr-section{
+    color: blue;
+    font-size: 15px;
+}
+
+
+
+.about-info{
+    margin-top: 25px;
+}
+.course-info p{
+    font-size: 13px;
+}
+.about-section .course-info{
+    padding-left: 300px;
+    padding-right: 50px;
+    background-color: #F4F4FD;
+    height: 100%;
+}
+.about-section{
+    background-color: #F4F4FD; 
+}
+.about-section .course{
+    border: none;
+    margin: 0px;
+}
+.blue-button{
+    padding: 13px 30px;
+    border:none;
+    background-color: #289BDE;
+   color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.search-button{
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.t-box form{
+    text-align: center;
+    justify-content: center;
+    padding: 100px 300px;
+    margin-top: 50px;
+background-color: #289BDE;
+border-radius: 5px;
+
+}
+.wow-box input{
+    padding:15px 70px;
+   border-radius: 5px;
+   border: none;
+
+}
+.br-btn{
+    padding: 13px 30px;
+    border:1px solid #289BDE;
+    color:#fff;
+    background-color:black ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600px;    
+}
+.ban-section h1{
+font-size: 16px;
+}
+.demo{
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 5px;
+}
+
+.Designer-section{
+    margin: 50px 50px;
+
+}
+.Designer-section h1{
+    font-size: 35px;
+}
+.last-div{
+    border:2px solid #c9d0d4;
+    border-radius: 8px;
+    margin: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.last-div p{
+    text-align: center;
+}
+.last-div h4{
+    text-align: center;
+}
+.last-div:hover{
+    background-color: #c5bdf6;
+ }
+ last-div:hover p{
+    color: #fff;
+  }
+  .last-div{
+    transition:1s;
+  }
+
+footer{
+    background-color: #020004;
+    color: #fff;
+    padding: 80px;
+    margin-top: 50px;
+ }
+ .text-section{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+ }
+ .text-section p{
+    font-size: 13px;
+ }
